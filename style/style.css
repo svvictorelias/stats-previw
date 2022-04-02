@@ -105,6 +105,10 @@ p{
 
 @media only screen and (max-width: 1070px){
 
+
+    body{
+        height: 100vh;
+    }
     .container{
         margin-top: 15px;
         padding: 0;
@@ -118,12 +122,50 @@ p{
         padding-bottom: 10px;
     }
     h1{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     p{
         padding: 5px 0px;
     }
     main{
         max-width: 700px;
+        margin: 0px;
+        margin-top:20px
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    main{
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin-top:20px
+    }
+    body{
+        height: auto;
+    }
+    .container{
+        padding: 0;
+    }
+    h1{
+        font-size: 1.1rem;
+    }
+    html{
+        padding: 50px 0px;
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0px;
+    }
+    p,h1{
+        text-align: center;
+    }
+    .info{
+        justify-content: space-between;
     }
 }
