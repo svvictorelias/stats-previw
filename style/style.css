@@ -127,33 +127,3 @@ p{
         max-width: 700px;
     }
 }
-
-@media only screen and (max-width: 720px){
-    main{
-        margin-top: 6rem;
-        margin-bottom: 12rem;
-        flex-direction: column;
-    }
-    .image{
-        width: 100%;
-    }
-    .image img{
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-top-left-radius: 8px;
-        
-    }
-    .info{
-        flex-direction: column;
-        
-    }
-    p,h1{
-        text-align: center;
-    }
-    .container{
-        width: 100%;
-    }
-    .color-image{
-        top:-3px
-    }
-}
